@@ -1,0 +1,13 @@
+.map-wrapper {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.map {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 200px;
+  height: 250px;
+}
