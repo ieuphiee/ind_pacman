@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
 .map-wrapper {
   position: absolute;
-  top: 25%;
-  left: 40%;
+  top: 10%;
+  left: 30%;
+  padding: 5px;
+  border: 1px dotted #000000;
 }
 
 .map {
-  border: 1px solid black;
   display: flex;
   flex-flow: column wrap;
-  width: 200px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.title {
+  background-color: #ffbe00;
+  font-family: 'Major Mono Display';
+  text-align: center;
+  font-size: 5rem;
 }
